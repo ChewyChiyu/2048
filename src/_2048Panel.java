@@ -266,7 +266,7 @@ public class _2048Panel extends JPanel{
 			if(sorted[index] == sorted[index+1]){
 				sorted[index] = sorted[index] * 2;
 				//adding to score
-				score += sorted[index] * 2;
+				score += sorted[index]/2;
 				sorted[index + 1] = 0; 
 			}
 		}
